@@ -1,0 +1,20 @@
+{
+  "name": "@ishiduca/find-rss",
+  "version": "0.0.0",
+  "description": "",
+  "main": "find-rss.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishiduca/find-rss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/ishiduca/find-rss/issues"
+  },
+  "homepage": "https://github.com/ishiduca/find-rss#readme"
+}
