@@ -1,20 +1,40 @@
 {
   "name": "@ishiduca/find-rss",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "find-rss.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "tape t/*.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ishiduca/find-rss.git"
   },
-  "keywords": [],
-  "author": "",
+  "bin": {
+    "find-rss": "./bin.js"
+  },
+  "keywords": [
+    "rss",
+    "atom",
+    "jsonfeed",
+    "json-feed",
+    "find",
+    "feed"
+  ],
+  "author": "ishiduca@gmail.com",
   "license": "BSD",
   "bugs": {
     "url": "https://github.com/ishiduca/find-rss/issues"
   },
-  "homepage": "https://github.com/ishiduca/find-rss#readme"
+  "homepage": "https://github.com/ishiduca/find-rss#readme",
+  "devDependencies": {
+    "tape": "^5.1.1"
+  },
+  "dependencies": {
+    "bl": "^4.0.3",
+    "json-stringify-safe": "^5.0.1",
+    "mississippi": "^4.0.0",
+    "trumpet": "^1.7.2",
+    "xtend": "^4.0.2"
+  }
 }
